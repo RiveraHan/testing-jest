@@ -9,6 +9,7 @@ test('2 * 3 should be 6', () => {
   const res = multiply(2, 3);
   expect(res).toBe(6);
 });
+
 test('3 * 0 should be 0 and 0 * 3 should be 0', () => {
   const res = multiply(3, 0);
   expect(res).toBe(0);
